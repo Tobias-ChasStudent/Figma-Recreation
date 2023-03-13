@@ -1,0 +1,85 @@
+.productInfo {
+    width: 45%;
+    --main-color: #ff7700;
+}
+
+.companyName {
+    color: var(--main-color);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: .8rem;
+}
+
+.productName {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.productText {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #666666;
+}
+.price {
+    margin: 20px 0;
+}
+
+.productPrice {
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.productPrice span {
+    font-size: 1.2rem;
+    padding: 5px;
+    background-color: #FFEEE2;
+    color: var(--main-color);
+    border-radius: 7px;
+    margin-left: 10px;
+}
+
+.grey {
+    color: #969696;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+.addProduct {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnGroup {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    font-size: 1.5rem;
+    background-color: #F6F8FD;
+    border-radius: 10px;
+
+}
+
+.btnGroup button {
+    color: var(--main-color);
+    padding: 10px;
+}
+
+.addToCart {
+    width: 60%;
+    background-color: var(--main-color);
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.addToCart>* {
+    margin-right: 15px;
+}
+.addToCart path {
+    fill: #ffffff;
+}

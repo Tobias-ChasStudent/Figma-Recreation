@@ -1,0 +1,30 @@
+.links{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 10px;
+    font-size: 1.2rem;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: capitalize;
+}
+.links li:nth-child(1) {
+    font-size: 1.7rem;
+}
+.cart {
+    width: 40px;
+    height: 40px;
+}
+
+header {
+    display: flex;
+   justify-content: space-between; 
+   margin: 30px 0;
+}
+.logos {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    justify-content: space-between;
+}

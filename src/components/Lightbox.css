@@ -1,0 +1,28 @@
+.next,
+.prev {
+    width: 70px;
+    position: absolute;
+    top: 40%;
+}
+
+.prev {
+
+    left: -72px;
+}
+
+.next {
+    right: -72px;
+}
+.thumbnails {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.thumbnails img {
+    width: 22%; 
+    border-radius: 10px;   
+}
+.active {
+    border-radius: 10px;
+    border: 2px solid #000000;
+}

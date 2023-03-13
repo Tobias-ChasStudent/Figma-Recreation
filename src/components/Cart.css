@@ -1,0 +1,14 @@
+.cartClass>img {
+    width:  40px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product img {
+width: 70px;
+border-radius: 5px;
+}
